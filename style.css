@@ -1,0 +1,100 @@
+body{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 22px;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.orange-color{
+    color: orange;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 110px;
+}
+.intro .half-width{
+    width: 50%;
+    margin-left: 8%;
+}
+.about .half-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 80%;
+    margin-bottom: -40px;  
+}
+.about .half-width img{
+    margin-bottom: -235px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+.about{
+    background-image: url(image/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+.recipies-text{
+    text-align: center;
+}
+#food-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.foods{
+    width: 23%;
+    height: min-content;
+    padding: 2%;
+    border-radius: 30px;
+    box-shadow: 0 1px 15px rgba(12, 12, 12, 0.1),0 0px 25px rgba(12, 12, 12, 0.05);
+}
+.foodimg img{
+    width: 100%;
+}
+h2{
+    font-size: 40px;
+}
+.stat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    
+}
+.stat .stat-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 1px 15px rgba(12, 12, 12, 0.1),0 0px 25px rgba(12, 12, 12, 0.05);
+    width: 90%;
+    border-radius: 30px;
+    background-color: white;
+}
+.end{
+    text-align: center;
+    background-color:black;
+    margin-bottom: -50px;
+}
+.gray-color{
+    color: gray;
+}
+.end-text{
+    color: white;
+}
