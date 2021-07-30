@@ -47,7 +47,7 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    
+    overflow: hidden;
 }
 .recipies-text{
     text-align: center;
@@ -91,6 +91,7 @@ h2{
     text-align: center;
     background-color:black;
     margin-bottom: -50px;
+    padding-bottom: 5px;
 }
 .gray-color{
     color: gray;
